@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         mTemperatureTextView = (TextView) findViewById(R.id.tv_temperature);
 
         try{
-            url = new URL("http://apiadvisor.climatempo.com.br/api/v1/weather/locale/6880/current?token=a47404cabfe5ceeae8786bca743b3d0c");
+            url = new URL("http://apiadvisor.climatempo.com.br/api/v1/weather/locale/6880/current?token=TOKEN_CLIMA_TEMPO");
         }catch (MalformedURLException e){
             e.printStackTrace();
         }
